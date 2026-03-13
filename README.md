@@ -23,11 +23,11 @@ Instead of processing images independently, the model treats the four directions
 * **Ensemble Blending:** Weighted averaging (70/30) of DINOv2 and ConvNeXt models for balanced classification and spatial stability.
 * **Hard Grid Snapping:** Utilized **K-Nearest Neighbors (KNN)** to snap predicted coordinates to known road networks from the training database, eliminating "off-road" impossibilities.
 
-## 📊 Performance
+## Performance
 * **Kaggle Score:** 0.943
 * **Competition Timeline:** Dec 1, 2025 – Dec 20, 2025
 * **Dataset:** 65,980 Training samples (263,920 total images)
 
-## 📁 Repository Structure
+## Repository Structure
 * `street-view.ipynb`: End-to-end pipeline (Data loading, Architecture, Training, Inference).
 * `requirements.txt`: Environment dependencies.
